@@ -1,0 +1,36 @@
+[2017-02-25 20:59:32] local.ERROR: exception 'InvalidArgumentException' with message 'Command "make:auth" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:controller
+    make:middleware
+    make:request
+    make:provider
+    make:console
+    make:event
+    make:model
+    make:command' in /var/www/html/sos_mulheres/vendor/symfony/console/Symfony/Component/Console/Application.php:549
+Stack trace:
+#0 /var/www/html/sos_mulheres/vendor/symfony/console/Symfony/Component/Console/Application.php(192): Symfony\Component\Console\Application->find('make:auth')
+#1 /var/www/html/sos_mulheres/vendor/symfony/console/Symfony/Component/Console/Application.php(126): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /var/www/html/sos_mulheres/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(94): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/sos_mulheres/artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
+[2017-02-25 20:59:59] local.ERROR: exception 'InvalidArgumentException' with message 'Command "make:auth" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:controller
+    make:middleware
+    make:request
+    make:provider
+    make:console
+    make:event
+    make:model
+    make:command' in /var/www/html/sos_mulheres/vendor/symfony/console/Symfony/Component/Console/Application.php:549
+Stack trace:
+#0 /var/www/html/sos_mulheres/vendor/symfony/console/Symfony/Component/Console/Application.php(192): Symfony\Component\Console\Application->find('make:auth')
+#1 /var/www/html/sos_mulheres/vendor/symfony/console/Symfony/Component/Console/Application.php(126): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /var/www/html/sos_mulheres/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(94): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/sos_mulheres/artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  

@@ -1,0 +1,6 @@
+[2016-11-16 16:11:45] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to a member function toArray() on array' in /var/www/html/sos_mulheres/app/Http/Controllers/CrimeController.php:42
+Stack trace:
+#0 {main}  
+[2016-11-16 16:33:39] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Cannot use try without catch or finally' in /var/www/html/sos_mulheres/app/Http/Controllers/CrimeController.php:51
+Stack trace:
+#0 {main}  

@@ -1,0 +1,18 @@
+[2016-11-27 20:00:21] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'' in /var/www/html/sos_mulheres/app/Http/Controllers/CrimeController.php:130
+Stack trace:
+#0 {main}  
+[2016-11-27 20:08:07] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method ArrayObject::apprend()' in /var/www/html/sos_mulheres/app/Http/Controllers/CrimeController.php:142
+Stack trace:
+#0 {main}  
+[2016-11-27 20:08:58] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method ArrayObject::apprend()' in /var/www/html/sos_mulheres/app/Http/Controllers/CrimeController.php:142
+Stack trace:
+#0 {main}  
+[2016-11-27 20:12:55] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\ArrayObject' not found' in /var/www/html/sos_mulheres/app/Http/Controllers/CrimeController.php:137
+Stack trace:
+#0 {main}  
+[2016-11-27 20:13:27] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'array' (T_ARRAY)' in /var/www/html/sos_mulheres/app/Http/Controllers/CrimeController.php:137
+Stack trace:
+#0 {main}  
+[2016-11-27 20:20:11] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function App\Http\Controllers\sifeof()' in /var/www/html/sos_mulheres/app/Http/Controllers/CrimeController.php:153
+Stack trace:
+#0 {main}  
